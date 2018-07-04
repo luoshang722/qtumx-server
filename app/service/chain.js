@@ -57,7 +57,7 @@ class ChainService extends Service {
   generateConf(chain) {
     const chainInfo = JSON.parse(chain.detail);
     const confList = [
-      'pos=1',
+      'poa=1',
     ];
     const keyMap = {
       tokenName: 'token-name',
